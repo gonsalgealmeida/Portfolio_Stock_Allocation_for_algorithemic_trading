@@ -22,8 +22,8 @@ The following are four sections as followed the above objectives:
 * [02 Alpha_factor_evaluation]
 * [03 Strategy_evaluation]
 * [04 Portfolio_stock_allocation]
-# Data
-## 01 Market Data Sources 
+# 01 Data
+## Market Data Sources 
 This section focus on market and fundamental data sources and techniques. It covers working with high-frequency market data, and API access to market data. The python note book also covered into how to work with fundamental data and compares different formats for efficient data storage with pandas. 
 There are several options to access market data via API using Python.
 
