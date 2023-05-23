@@ -150,9 +150,7 @@ Assume, we had $20,000 to invest and would like our portfolio to be 130/30 long/
 
 ![s4_7](https://github.com/gonsalgealmeida/Portfolio_Stock_Allocation_for_algorithemic_trading/assets/49290976/f6567f0f-6e6b-4651-ae87-9e1a5e02f21e)
 
-import os
-cwd=os.getcwd()
-cwd
+
 ![]('/Users/surekaalmeida/Documents/dataincubator/TDI_Capstone/s4_7.png')
 Expected annual return: 31.6%
 Annual volatility: 15.0%
