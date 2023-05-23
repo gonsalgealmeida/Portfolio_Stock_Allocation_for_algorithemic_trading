@@ -58,7 +58,7 @@ Finally, the notebooks delve into Pyfolio, a tool that facilitates the analysis 
 Overall, the notebooks provide a comprehensive exploration of portfolio optimization, including traditional and alternative approaches, as well as the analysis of portfolio performance using Pyfolio.
 
 
-Mean-variance optimization requires two things: the expected returns of the assets, and the covariance matrix (or more generally, a risk model quantifying asset risk). we used PyPortfolioOpt used methods for estimating both (located in expected_returns and risk_models respectively).
+Mean-variance optimization requires two things: the expected returns of the assets, and the covariance matrix (or more generally, a risk model quantifying asset risk). We used PyPortfolioOpt for estimating both (located in expected_returns and risk_models respectively).
 Processed historical prices of 20 stocks:
     
            ["MSFT", "AMZN", "KO", "MA", "COST", 
