@@ -124,7 +124,7 @@ Assume, we had $20,000 to invest and would like our portfolio to be 130/30 long/
 |             ('XOM'| 13)]|
 
 
-#Constructed the portfolio allocation( maximing return for a given volatility=15%,with L2 regularisation)
+#Constructed the portfolio allocation( maximizing return for a given volatility=15%,with L2 regularization)
  
 |[('AAPL'| 0.03212)| |
 |:----|:----|:----|
