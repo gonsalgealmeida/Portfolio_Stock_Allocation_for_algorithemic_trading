@@ -1,7 +1,7 @@
 ##(The project for fullfilment of an integral part of the Data incubator's fellowship program( 2023-spring - cohor)
 # Risk Analysis and Portfolio Stock Allocation for algorithemic      trading:
 
-# Project Summary:
+# Project Summary
 This project focuses on the application of algorithmic trading and machine learning in investment management. It aims to utilize machine learning algorithms to automate investment tasks, extract information from data, and optimize portfolio allocation. The project explores various applications of machine learning, including risk analysis, alpha factor generation, strategy aggregation, and asset allocation. The objective is to enhance investment decision-making, achieve superior risk-return characteristics, and generate alpha in the trading process.
 Project Objectives:
 
