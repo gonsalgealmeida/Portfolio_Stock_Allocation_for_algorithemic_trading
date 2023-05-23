@@ -182,7 +182,7 @@ README.md
 # Brief RESULTS
 
 #The long/short portfolio
-||   |    |
+```||   |    |
 |:----|:----|:----|
 |             ('AAPL'| 0.00287)||
 |             ('ACN'| 0.21881)| |
@@ -203,7 +203,7 @@ README.md
 |             ('SOS'| 0.04845)| |
 |             ('TSLA'| 0.11267)| |
 |             ('UNH'| 0.03353)| |
-|             ('XOM'| 0.07744)]|
+|             ('XOM'| 0.07744)]|```
 
 Annual volatility: 12.0%
 (Note that this is an in sample estimate and may have very little resemblance to how the portfolio actually performs!)
