@@ -156,7 +156,7 @@ Expected annual return: 31.6%
 Annual volatility: 15.0%
 Sharpe Ratio: 1.97.
 
-#Constructed portpolio with minimise risk for 7% return.
+#Constructed portpolio with minimal risk for 7% return.
 |[('AAPL'| 0.0026)| |
 |:----|:----|:----|
 |             ('ACN'| -0.0141)| |
