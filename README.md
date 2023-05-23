@@ -261,8 +261,6 @@ Assume, we had $20,000 to invest and would like our portfolio to be 130/30 long/
 
 ![s4_7](https://github.com/gonsalgealmeida/Portfolio_Stock_Allocation_for_algorithemic_trading/assets/49290976/2ea1a4d5-0341-4c8a-bb30-b06461e2c8c9)
 
-
-![]('/Users/surekaalmeida/Documents/dataincubator/TDI_Capstone/s4_7.png')
 Expected annual return: 31.6%
 Annual volatility: 15.0%
 Sharpe Ratio: 1.97.
