@@ -49,18 +49,14 @@ This section is a guide to financial feature engineering and alpha factor resear
 These notebooks evaluate portfolio optimization and performance. It explains that to test a strategy before implementing it under market conditions, one needs to simulate the trades the algorithm would make and verify their performance. It covers various topics, including measuring portfolio performance using metrics that reflect the return and risk of the investment portfolio. The note bookes also covered how modern portfolio theory, diversification, mean-variance optimization, and the capital asset pricing model are used to manage portfolio risk and return.
 
 The document also presents alternatives to mean-variance optimization, such as the 1/N portfolio, the minimum-variance portfolio, and the Black-Litterman approach. It also covers the Kelly rule and Hierarchical Risk Parity as novel approaches to optimize portfolios, including the application of machine learning to learn hierarchical relationships among assets and treat their holdings as complements or substitutes with respect to the portfolio risk profile. Finally, the document discusses Pyfolio, which facilitates the analysis of portfolio performance and risk in-sample and out-of-sample using many standard metrics.
-              
-              
-These notebooks focus on evaluating portfolio optimization and performance. They emphasize the importance of simulating trades and testing strategies before implementing them in real market conditions. Various topics are covered, including measuring portfolio performance using metrics that consider both return and risk.
-# 04 Portfolio_stock_allocation
 
-The notebooks explore concepts such as modern portfolio theory, diversification, mean-variance optimization, and the capital asset pricing model as methods for managing portfolio risk and return. Additionally, alternatives to mean-variance optimization, such as the 1/N portfolio, minimum-variance portfolio, and Black-Litterman approach, are discussed.
+# 04 Portfolio_stock_allocation
+The notebook explore concepts such as modern portfolio theory, diversification, mean-variance optimization, and the capital asset pricing model as methods for managing portfolio risk and return. Additionally, alternatives to mean-variance optimization, such as the 1/N portfolio, minimum-variance portfolio, and Black-Litterman approach, are discussed.
 
 Finally, the notebooks delve into Pyfolio, a tool that facilitates the analysis of portfolio performance and risk using standard metrics. It allows for in-sample and out-of-sample evaluation, aiding in the assessment of portfolio strategies.
 
 Overall, the notebooks provide a comprehensive exploration of portfolio optimization, including traditional and alternative approaches, as well as the analysis of portfolio performance using Pyfolio.
 
-This note books evaluate on mean-variance optimization (MVO), which is what most people think of when they hear “portfolio optimization”.
 
 Mean-variance optimization requires two things: the expected returns of the assets, and the covariance matrix (or more generally, a risk model quantifying asset risk). we used PyPortfolioOpt used methods for estimating both (located in expected_returns and risk_models respectively).
 Processed historical prices of 20 stocks:
