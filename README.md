@@ -1,4 +1,4 @@
-##(The project for fullfilment of an integral part of the Data incubator's fellowship program( 2023 - spring - cohor)
+##(The project for fullfilment of an integral part of the Data incubator's fellowship program( 2023 - spring - cohort)
 # Risk Analysis and Portfolio Stock Allocation For Algorithmic Trading:
 
 # Project Summary
