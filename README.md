@@ -69,24 +69,8 @@ Processed historical prices of 20 stocks:
 ```
 README.md
 |   
-+---.ipynb_checkpoints
-|       readme-checkpoint.ipynb
 |       
 +---01_Fundamental_data
-|   |   .DS_Store
-|   |   
-|   +---.ipynb_checkpoints
-|   \---03_data_providers
-|       |   01_pandas_datareader_demo.ipynb
-|       |   02_yfinance_demo.ipynb
-|       |   04-quandl_demo.ipynb
-|       |   05_zipline_data_demo.ipynb
-|       |   
-|       \---.ipynb_checkpoints
-|               01_pandas_datareader_demo-checkpoint.ipynb
-|               02_yfinance_demo-checkpoint.ipynb
-|               04-quandl_demo-checkpoint.ipynb
-|               05_zipline_data_demo-checkpoint.ipynb
 |               
 +---02_Alpha_factor_evaluation
 |   |   .DS_Store
