@@ -66,25 +66,13 @@ Processed historical prices of 20 stocks:
            "ACN", "DIS", "GILD", "F", "TSLA","NVDA","AAPL","AMD","F","SOS","RGS"] 
 
 # The Whole Project Outline
-'''
-|   README.md
+```
+README.md
 |   
 |       
 +---01_Fundamental_data
-|   |   .DS_Store
-|   |   
-|   +---.ipynb_checkpoints
-|   \---03_data_providers
-|       |   01_pandas_datareader_demo.ipynb
-|       |   02_yfinance_demo.ipynb
-|       |   04-quandl_demo.ipynb
-|       |   05_zipline_data_demo.ipynb
-|       |   
-|       \---.ipynb_checkpoints
-|               01_pandas_datareader_demo-checkpoint.ipynb
-|               02_yfinance_demo-checkpoint.ipynb
-|               04-quandl_demo-checkpoint.ipynb
-|               05_zipline_data_demo-checkpoint.ipynb
+|   
+|
 |               
 +---02_Alpha_factor_evaluation
 |   |   .DS_Store
@@ -132,19 +120,6 @@ Processed historical prices of 20 stocks:
 |   |   Algorithemic_trading_with_Django_API_data_access2.ipynb
 |   |   Portpolio_Allocation_API_dataaccess.ipynb
 |   |   processed_data.csv
-|   |   s4_1.png
-|   |   s4_10.png
-|   |   s4_11.png
-|   |   s4_12.png
-|   |   s4_13.png
-|   |   s4_2.png
-|   |   s4_3.png
-|   |   s4_4.png
-|   |   s4_5.png
-|   |   s4_6.png
-|   |   s4_7.png
-|   |   s4_8.png
-|   |   s4_9.png
 |   |   stock_analysis.ipynb
 |   |   
 |   +---.ipynb_checkpoints
@@ -240,7 +215,9 @@ Processed historical prices of 20 stocks:
     |   s4_8.png
     |   s4_9.png
     |   
-    \---.ipynb_checkpoints'''
+    \---.ipynb_checkpoints```
+
+
 # Brief RESULTS
 
 #The long/short portfolio
