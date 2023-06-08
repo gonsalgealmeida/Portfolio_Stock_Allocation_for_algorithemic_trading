@@ -66,7 +66,7 @@ Processed historical prices of 20 stocks:
            "ACN", "DIS", "GILD", "F", "TSLA","NVDA","AAPL","AMD","F","SOS","RGS"] 
 
 # The Whole Project Outline
-"""
+'''
 |   README.md
 |   
 |       
