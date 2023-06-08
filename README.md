@@ -66,8 +66,181 @@ Processed historical prices of 20 stocks:
            "ACN", "DIS", "GILD", "F", "TSLA","NVDA","AAPL","AMD","F","SOS","RGS"] 
 
 # The Whole Project Outline
-
-
+"""
+|   README.md
+|   
+|       
++---01_Fundamental_data
+|   |   .DS_Store
+|   |   
+|   +---.ipynb_checkpoints
+|   \---03_data_providers
+|       |   01_pandas_datareader_demo.ipynb
+|       |   02_yfinance_demo.ipynb
+|       |   04-quandl_demo.ipynb
+|       |   05_zipline_data_demo.ipynb
+|       |   
+|       \---.ipynb_checkpoints
+|               01_pandas_datareader_demo-checkpoint.ipynb
+|               02_yfinance_demo-checkpoint.ipynb
+|               04-quandl_demo-checkpoint.ipynb
+|               05_zipline_data_demo-checkpoint.ipynb
+|               
++---02_Alpha_factor_evaluation
+|   |   .DS_Store
+|   |   01_feature_engineering.ipynb
+|   |   02_how_to_use_talib.ipynb
+|   |   03_kalman_filter_and_wavelets.ipynb
+|   |   04_single_factor_zipline.ipynb
+|   |   06_performance_eval_alphalens.ipynb
+|   |   factor_data.csv
+|   |   single_factor.pickle
+|   |   
+|   \---.ipynb_checkpoints
+|           01_feature_engineering-checkpoint.ipynb
+|           02_how_to_use_talib-checkpoint.ipynb
+|           04_single_factor_zipline-checkpoint.ipynb
+|           06_performance_eval_alphalens-checkpoint.ipynb
+|           
++---03_Strategy_evaluation
+|   |   .DS_Store
+|   |   01_backtest_with_trades.ipynb
+|   |   02_backtest_with_pf_optimization.ipynb
+|   |   03_pyfolio_demo.ipynb
+|   |   04_mean_variance_optimization.ipynb
+|   |   05_kelly_rule.ipynb
+|   |   backtests.h5
+|   |   
+|   +---.ipynb_checkpoints
+|   |       01_backtest_with_trades-checkpoint.ipynb
+|   |       02_backtest_with_pf_optimization-checkpoint.ipynb
+|   |       04_mean_variance_optimization-checkpoint.ipynb
+|   |       05_kelly_rule-checkpoint.ipynb
+|   |       
+|   \---data
+|           spy_prices.csv
+|           
++---04_Portfolio_stock_allocation
+|   |   .DS_Store
+|   |   1-RiskReturnModels.ipynb
+|   |   2-Mean-Variance-Optimisation.ipynb
+|   |   2-Mean-Variance-Optimisation2.ipynb
+|   |   2-Mean-Variance-Optimisation3.ipynb
+|   |   3-Advanced-Mean-Variance-Optimisation.ipynb
+|   |   4-Black-Litterman-Allocation.ipynb
+|   |   5-Hierarchical-Risk-Parity.ipynb
+|   |   Algorithemic_trading_with_Django_API_data_access2.ipynb
+|   |   Portpolio_Allocation_API_dataaccess.ipynb
+|   |   processed_data.csv
+|   |   s4_1.png
+|   |   s4_10.png
+|   |   s4_11.png
+|   |   s4_12.png
+|   |   s4_13.png
+|   |   s4_2.png
+|   |   s4_3.png
+|   |   s4_4.png
+|   |   s4_5.png
+|   |   s4_6.png
+|   |   s4_7.png
+|   |   s4_8.png
+|   |   s4_9.png
+|   |   stock_analysis.ipynb
+|   |   
+|   +---.ipynb_checkpoints
+|   |       1-RiskReturnModels-checkpoint.ipynb
+|   |       2-Mean-Variance-Optimisation-checkpoint.ipynb
+|   |       2-Mean-Variance-Optimisation2-checkpoint.ipynb
+|   |       2-Mean-Variance-Optimisation3-checkpoint.ipynb
+|   |       3-Advanced-Mean-Variance-Optimisation-checkpoint.ipynb
+|   |       4-Black-Litterman-Allocation-checkpoint.ipynb
+|   |       5-Hierarchical-Risk-Parity-checkpoint.ipynb
+|   |       Algorithemic_trading_with_Django_API_data_access2-checkpoint.ipynb
+|   |       Portpolio_Allocation_API_dataaccess-checkpoint.ipynb
+|   |       
+|   +---data
+|   |       spy_prices.csv
+|   |       stock_prices.csv
+|   |       
+|   +---stocks
+|   |   |   .DS_Store
+|   |   |   db.sqlite3
+|   |   |   manage.py
+|   |   |   
+|   |   +---prices
+|   |   |   |   .DS_Store
+|   |   |   |   admin.py
+|   |   |   |   apps.py
+|   |   |   |   models.py
+|   |   |   |   tests.py
+|   |   |   |   views.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   +---migrations
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   \---__pycache__
+|   |   |           models.cpython-39.pyc
+|   |   |           views.cpython-39.pyc
+|   |   |           __init__.cpython-39.pyc
+|   |   |           
+|   |   \---stocks
+|   |       |   .DS_Store
+|   |       |   asgi.py
+|   |       |   settings.py
+|   |       |   urls.py
+|   |       |   wsgi.py
+|   |       |   __init__.py
+|   |       |   
+|   |       \---__pycache__
+|   |               settings.cpython-39.pyc
+|   |               urls.cpython-39.pyc
+|   |               wsgi.cpython-39.pyc
+|   |               __init__.cpython-39.pyc
+|   |               
+|   \---__pycache__
+|           API_access.cpython-39.pyc
+|           API_create.cpython-39.pyc
+|           API_data.cpython-39.pyc
+|           
++---data
+|   |   .DS_Store
+|   |   bbc.zip
+|   |   create_datasets.ipynb
+|   |   create_stooq_data.ipynb
+|   |   create_yelp_review_data.ipynb
+|   |   earnings_calls.zip
+|   |   glove_word_vectors.ipynb
+|   |   README.md
+|   |   us_equities_meta_data.csv
+|   |   wiki_stocks.csv
+|   |   ^spx_d.csv
+|   |   
+|   +---.ipynb_checkpoints
+|   |       create_datasets-checkpoint.ipynb
+|   |       create_stooq_data-checkpoint.ipynb
+|   |       
+|   \---stooq
+|           ^spx_d (2).csv
+|           
+\---figures
+    |   .DS_Store
+    |   s4_1.png
+    |   s4_10.png
+    |   s4_11.png
+    |   s4_12.png
+    |   s4_13.png
+    |   s4_2.png
+    |   s4_3.pdf
+    |   s4_3.png
+    |   s4_4.png
+    |   s4_5.png
+    |   s4_6.png
+    |   s4_7.png
+    |   s4_8.png
+    |   s4_9.png
+    |   
+    \---.ipynb_checkpoints'''
 # Brief RESULTS
 
 #The long/short portfolio
