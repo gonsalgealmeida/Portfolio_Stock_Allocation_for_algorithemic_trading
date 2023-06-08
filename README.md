@@ -215,7 +215,8 @@ README.md
     |   s4_8.png
     |   s4_9.png
     |   
-    \---.ipynb_checkpoints```
+    \---.ipynb_checkpoints
+    ```
 
 
 # Brief RESULTS
