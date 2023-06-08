@@ -65,7 +65,7 @@ Processed historical prices of 20 stocks:
            "LUV", "XOM", "PFE", "JPM", "UNH", 
            "ACN", "DIS", "GILD", "F", "TSLA","NVDA","AAPL","AMD","F","SOS","RGS"] 
 
-# The Whole Project Outline
+# Structure
 ```
 README.md
 |   
