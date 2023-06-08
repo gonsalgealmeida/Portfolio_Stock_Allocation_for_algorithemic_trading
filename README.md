@@ -71,28 +71,28 @@ Processed historical prices of 20 stocks:
 # Brief RESULTS
 
 #The long/short portfolio
-||   |    |
+|	    ('AAPL'| 0.00287)| |
 |:----|:----|:----|
-|             ('AAPL'| 0.00287)||
 |             ('ACN'| 0.21881)| |
-|             ('AMD'| -0.024)| |
-|             ('AMZN'| 0.0099)| |
-|             ('COST'| 0.09772)| |
-|             ('DIS'| -0.01793)| |
+|             ('AMD'| -0.02401)| |
+|             ('AMZN'| 0.00992)| |
+|             ('COST'| 0.09775)| |
+|             ('DIS'| -0.01794)| |
 |             ('F'| -0.01975)| |
-|             ('GILD'| 0.04943)| |
-|             ('JPM'| -0.04252)| |
-|             ('KO'| 0.12877)| |
-|             ('LUV'| 0.02334)| |
-|             ('MA'| 0.2196)| |
-|             ('MSFT'| 0.00848)| |
-|             ('NVDA'| -0.01444)| |
-|             ('PFE'| 0.07025)| |
-|             ('RGS'| 0.01736)| |
+|             ('GILD'| 0.04944)| |
+|             ('JPM'| -0.04251)| |
+|             ('KO'| 0.12884)| |
+|             ('LUV'| 0.02335)| |
+|             ('MA'| 0.21963)| |
+|             ('MSFT'| 0.00847)| |
+|             ('NVDA'| -0.01443)| |
+|             ('PFE'| 0.07013)| |
+|             ('RGS'| 0.01735)| |
 |             ('SOS'| 0.04845)| |
-|             ('TSLA'| 0.11267)| |
+|             ('TSLA'| 0.11261)| |
 |             ('UNH'| 0.03353)| |
-|             ('XOM'| 0.07744)]|
+|             ('XOM'| 0.07748)|
+
 
 Annual volatility: 12.0%
 (Note that this is an in sample estimate and may have very little resemblance to how the portfolio actually performs!)
@@ -126,7 +126,7 @@ Assume, we had $20,000 to invest and would like our portfolio to be 130/30 long/
 
 #Constructed the portfolio allocation( maximizing return for a given volatility=15%,with L2 regularization)
  
-|[('AAPL'| 0.03212)| |
+|	    ('AAPL'| 0.03212)| |
 |:----|:----|:----|
 |             ('ACN'| 0.06016)| |
 |             ('AMD'| 0.02457)| |
@@ -146,7 +146,8 @@ Assume, we had $20,000 to invest and would like our portfolio to be 130/30 long/
 |             ('SOS'| 0.17097)| |
 |             ('TSLA'| 0.08874)| |
 |             ('UNH'| 0.03853)| |
-|             ('XOM'| 0.0225)])|
+|             ('XOM'| 0.0225)|
+
 
 ![s4_7](https://github.com/gonsalgealmeida/Portfolio_Stock_Allocation_for_algorithemic_trading/assets/49290976/f6567f0f-6e6b-4651-ae87-9e1a5e02f21e)
 
