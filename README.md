@@ -1,4 +1,4 @@
-##(The project for fullfilment of an integral part of the Data incubator's fellowship program( 2023 - spring - cohort)
+##(The project for fulfillment of an integral part of the Data incubator's fellowship program( 2023 - spring - cohort)
 # Risk Analysis and Portfolio Stock Allocation For Algorithmic Trading:
 
 # Project Summary
@@ -24,7 +24,7 @@ The following are four sections as followed the above objectives:
 * [04 Portfolio_stock_allocation]
 # 01 Data
 ## Market Data Sources 
-This section focus on market and fundamental data sources and techniques. It covers working with high-frequency market data, and API access to market data. The python note book also covered into how to work with fundamental data and compares different formats for efficient data storage with pandas. 
+This section focus on market and fundamental data sources and techniques. It covers working with high-frequency market data, and API access to market data. The python notebook also covered into how to work with fundamental data and compares different formats for efficient data storage with pandas. 
 There are several options to access market data via API using Python.
 
 ### pandas datareader
@@ -46,19 +46,19 @@ The notebook [contains the notebook [zipline_data](05_zipline_data.ipynb) briefl
 This section is a guide to financial feature engineering and alpha factor research for algorithmic trading strategies. It defines alpha factors as signals that aim to produce uncorrelated returns and provides an overview of the tools used to compute and test alpha factors. The document emphasizes the importance of building on decades of factor research to identify new factors that capture risks better than known factors. The open-source zipline library is introduced as a tool for backtestings. 
 
 # 03 Strategy_evaluation
-These notebooks evaluate portfolio optimization and performance. It explains that to test a strategy before implementing it under market conditions, one needs to simulate the trades the algorithm would make and verify their performance. It covers various topics, including measuring portfolio performance using metrics that reflect the return and risk of the investment portfolio. The note bookes also covered how modern portfolio theory, diversification, mean-variance optimization, and the capital asset pricing model are used to manage portfolio risk and return.
+These notebooks evaluate portfolio optimization and performance. It explains that to test a strategy before implementing it under market conditions, one needs to simulate the trades the algorithm would make and verify their performance. It covers various topics, including measuring portfolio performance using metrics that reflect the return and risk of the investment portfolio. The note books also covered how modern portfolio theory, diversification, mean-variance optimization, and the capital asset pricing model are used to manage portfolio risk and return.
 
 The document also presents alternatives to mean-variance optimization, such as the 1/N portfolio, the minimum-variance portfolio, and the Black-Litterman approach. It also covers the Kelly rule and Hierarchical Risk Parity as novel approaches to optimize portfolios, including the application of machine learning to learn hierarchical relationships among assets and treat their holdings as complements or substitutes with respect to the portfolio risk profile. Finally, the document discusses Pyfolio, which facilitates the analysis of portfolio performance and risk in-sample and out-of-sample using many standard metrics.
 
 # 04 Portfolio_stock_allocation
-The notebook explore concepts such as modern portfolio theory, diversification, mean-variance optimization, and the capital asset pricing model as methods for managing portfolio risk and return. Additionally, alternatives to mean-variance optimization, such as the 1/N portfolio, minimum-variance portfolio, and Black-Litterman approach, are discussed.
+The notebook explores concepts such as modern portfolio theory, diversification, mean-variance optimization, and the capital asset pricing model as methods for managing portfolio risk and return. Additionally, alternatives to mean-variance optimization, such as the 1/N portfolio, minimum-variance portfolio, and Black-Litterman approach, are discussed.
 
 Finally, the notebooks delve into Pyfolio, a tool that facilitates the analysis of portfolio performance and risk using standard metrics. It allows for in-sample and out-of-sample evaluation, aiding in the assessment of portfolio strategies.
 
 Overall, the notebooks provide a comprehensive exploration of portfolio optimization, including traditional and alternative approaches, as well as the analysis of portfolio performance using Pyfolio.
 
 
-Mean-variance optimization requires two things: the expected returns of the assets, and the covariance matrix (or more generally, a risk model quantifying asset risk). We used PyPortfolioOpt for estimating both (located in expected_returns and risk_models respectively).
+Mean-variance optimization requires two things: the expected returns of the assets and the covariance matrix (or, more generally, a risk model quantifying asset risk). We used PyPortfolioOpt for estimating both (located in expected_returns and risk_models, respectively).
 Processed historical prices of 20 stocks:
     
            ["MSFT", "AMZN", "KO", "MA", "COST", 
@@ -118,8 +118,8 @@ README.md
 |   |   4-Black-Litterman-Allocation.ipynb
 |   |   5-Hierarchical-Risk-Parity.ipynb
 |   |   Algorithemic_trading_with_Django_API_data_access2.ipynb
-|   |   Portpolio_stock_Allocation2.py
-|   |   Portpolio_Allocation_API_dataaccess.ipynb
+|   |   Portfolio_stock_Allocation2.py
+|   |   Portfolio_Allocation_API_dataaccess.ipynb
 |   |   Portfolio_Allocation.py
 |   |   processed_data.csv
 |   |   stock_analysis.ipynb
@@ -133,7 +133,7 @@ README.md
 |   |       4-Black-Litterman-Allocation-checkpoint.ipynb
 |   |       5-Hierarchical-Risk-Parity-checkpoint.ipynb
 |   |       Algorithemic_trading_with_Django_API_data_access2-checkpoint.ipynb
-|   |       Portpolio_Allocation_API_dataaccess-checkpoint.ipynb
+|   |       Portfolio_Allocation_API_dataaccess-checkpoint.ipynb
 |   |       
 |   +---data
 |   |       spy_prices.csv
