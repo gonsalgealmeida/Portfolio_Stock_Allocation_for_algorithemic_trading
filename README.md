@@ -24,7 +24,7 @@ The following are four sections as followed the above objectives:
 * [04 Portfolio_stock_allocation]
 # 01 Data
 ## Market Data Sources 
-This section focus on market and fundamental data sources and techniques. It covers working with high-frequency market data, and API access to market data. The python notebook also covered into how to work with fundamental data and compares different formats for efficient data storage with pandas. 
+This section focuses on market and fundamental data sources and techniques. It covers working with high-frequency market data and API access to market data. The Python notebook also covered into how to work with fundamental data and compared different formats for efficient data storage with pandas. 
 There are several options to access market data via API using Python.
 
 ### pandas datareader
@@ -118,6 +118,7 @@ README.md
 |   |   4-Black-Litterman-Allocation.ipynb
 |   |   5-Hierarchical-Risk-Parity.ipynb
 |   |   Algorithemic_trading_with_Django_API_data_access2.ipynb
+|   |   Portfolio_Allocation2.py
 |   |   Portfolio_stock_Allocation2.py
 |   |   Portfolio_Allocation_API_dataaccess.ipynb
 |   |   Portfolio_Allocation.py
