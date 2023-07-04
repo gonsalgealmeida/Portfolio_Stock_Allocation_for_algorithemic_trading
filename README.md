@@ -118,7 +118,9 @@ README.md
 |   |   4-Black-Litterman-Allocation.ipynb
 |   |   5-Hierarchical-Risk-Parity.ipynb
 |   |   Algorithemic_trading_with_Django_API_data_access2.ipynb
+|   |   Portpolio_stock_Allocation2.py
 |   |   Portpolio_Allocation_API_dataaccess.ipynb
+|   |   Portfolio_Allocation.py
 |   |   processed_data.csv
 |   |   stock_analysis.ipynb
 |   |   
